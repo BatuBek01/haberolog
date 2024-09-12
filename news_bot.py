@@ -84,5 +84,4 @@ if __name__ == '__main__':
     loop.create_task(send_news())
 
     # Flask sunucusunu başlat
-    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
